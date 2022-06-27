@@ -21,7 +21,7 @@ const App = () => {
     {
       id: "e4",
       title: "New Desk (Wooden)",
-      amount: 450,
+      amount: 4500,
       date: new Date(2021, 5, 12),
     },
   ];
