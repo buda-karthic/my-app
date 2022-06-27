@@ -1,0 +1,34 @@
+.NewExpenses{
+    display: flex;
+    gap:30px;
+    padding: 30px;
+    border:3px solid #000;
+    border-radius: 5px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+
+    .ExpenseItem{
+        flex: 1 0 0;
+        display: flex;
+        gap:5px;
+        align-items: center;
+        flex-wrap: wrap;
+        input{
+            flex: 1 0 100%;
+            height: 40px;
+            border: 1px solid #ddd;
+            border-radius: 2px;
+        }
+    }
+    button{
+        border: 0;
+    padding: 15px 25px;
+    border-radius: 100vmin;
+    background: #000;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1;
+    align-self: end;
+    }
+}
